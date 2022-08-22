@@ -1,0 +1,146 @@
+body    {
+    background-image: url(../images/background.jpg);
+    color: #FED100;
+    font-family: 'Bangers', cursive;
+    line-height: 1.5;
+    width: 960px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    }
+/* koppen */
+h1,h2,h3  {
+    color: #FED100;
+    font-family: 'Permanent Marker', cursive;    
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 0.3em;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 1);
+}
+h4,h5,h6  {
+    color: #FED100;
+    font-family: 'Permanent Marker', cursive;    
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 0.3em;
+}
+h4,h5,h6    { font-weight: normal; }
+h1 {font-size: 1.6em; }
+h2 {font-size: 1.4em; }
+h3 {font-size: 1.3em; }
+h4 {font-size: 1.2em; }
+h5 {font-size: 1.1em; }
+h6 {font-size: 1em; }
+
+/* tekst elementen */
+p { margin-bottom: 1em;
+    font-family: 'Bangers', cursive;
+}
+
+/* Lijsten */
+ul {
+    list-style-type: disc;
+    margin: 0 1.5em 1.5em 0;
+ }
+
+/* Header */
+#header {
+    background-image: url(../images/riddler_header.jpg);
+    border-bottom: 1px solid #550a55;
+}
+
+#header-nav {
+    height: 39px;
+    text-align: right;
+    color: #666;
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+#header-nav-link a {
+    color: #FED100;
+    text-decoration: none;
+}
+
+#header-nav-link a:hover { color: #e20d0d; }
+
+#logo {color: #FFF;}
+#site-title a { text-decoration: none;}
+#site-title, #site-title a {
+    color: #FED100;
+    font-size: 2.2em;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding-top: 20px;
+ }
+#site-slogan {
+    color: #830303;
+    font-size: 2em;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Primaire navigatie */
+#primaire-nav {
+    background-color: #550a55;
+    /* min-height: 37px; */
+    padding: 8px 0px;
+}
+
+#primaire-nav a {
+    color: #FED100;
+    font-size: 1.3em;
+    padding: 20px;
+}
+#primaire-nav-link span.text-separator {
+    color: #FED100;
+    padding: 0 7px;
+}
+
+#primaire-nav a:hover { color: #e20d0d; }
+
+ul.tab {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul.tab li{
+    float: left;
+    list-style: none;
+}
+ul.tab a { text-decoration: none; }
+
+/* Inhoud */
+.inhoud {
+    color: #000;
+    font-size: 1.1em;
+    background-color: rgba(199, 199, 199, 0.58);
+    min-height: 300px;
+}
+.inhoud a {
+    color: #FED100;
+    text-decoration: none;
+}
+.inhoud a:hover { color: #e20d0d; }
+
+/* Text inhoud */
+#tekst-inhoud { padding: 24px; }
+
+
+ /* Footer */
+ #footer {
+     color: #FED100;
+     padding: 0 6px 12px;
+     margin-top:3px;
+ }
+ #footer a {
+     color: #555;
+     text-decoration: none;
+}
+
+#footer .right, #footer .right a { color: #FED100;}
+
+
+/* Floats */
+.left { float: left; }
+.right { float: right; }
